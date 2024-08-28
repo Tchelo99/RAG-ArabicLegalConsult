@@ -1,12 +1,24 @@
 # RAG Application for Arabic Legal Documents
 
-This project implements a Retrieval-Augmented Generation (RAG) application tailored for querying Arabic legal documents. The application is built using the LangChain library and integrates Arabic BERT models for text embedding and evaluation.
+This project is a Retrieval-Augmented Generation (RAG) application built using Python and the LangChain framework. It is designed to query Arabic legal documents and provide accurate, context-based answers.
 
-## Data Sources
+## Project Overview
 
-This RAG application uses the following legal documents in Arabic:
+The RAG app leverages the following components:
 
-- **قانون العمل الجزائري رقم 90-11 لسنة 1990** (Algerian Labor Law No. 90-11 of 1990)
-- **قانون رقم 23-12 يحدد القواعد العامة المتعلقة بالصفقات العمومية** (Law No. 23-12, which defines the general rules related to public contracts)
+- **LangChain**: A framework for building applications powered by language models.
+- **Hugging Face Transformers**: Used for text embeddings.
+- **Chroma**: For storing and retrieving document embeddings.
 
-These documents serve as the knowledge base for answering legal questions posed to the application.
+## PDF Documents Used
+
+This application processes and retrieves information from the following legal documents:
+
+- **قانون العمل الجزائري رقم 90-11 لسنة 1990**
+- **قانون رقم 23-12 يحدد القواعد العامة المتعلقة بالصفقات العمومية**
+
+## Features
+
+- **Arabic Language Support**: The app supports Arabic queries and provides responses in Arabic.
+- **Efficient Document Retrieval**: Utilizes Chroma for fast and accurate document retrieval based on text embeddings.
+- **Custom Prompting**: The app includes custom prompts in Arabic to better suit the context of legal queries.
