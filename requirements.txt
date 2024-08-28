@@ -1,0 +1,8 @@
+langchain>=0.2.9
+langchain-huggingface>=0.2.9
+langchain-chroma>=0.2.9
+transformers>=4.31.0
+sentence-transformers>=2.2.2
+chromadb>=0.3.21
+torch>=2.0.0
+pypdf>=3.9.1
